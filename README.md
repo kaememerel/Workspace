@@ -1,1 +1,2 @@
-# Workspace "This is the place where I put my first scripts written while doing a tutorial"
+# Workspace 
+This is the space where I put my first scripts written while doing tutorials.
