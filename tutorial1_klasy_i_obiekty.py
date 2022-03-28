@@ -32,3 +32,25 @@ Auto2.wartosc = 10000
 # sprawdzenie kodu
 print (Auto1.opis())
 print (Auto2.opis())
+class Kubek:
+    rozmiar = "duzy"
+    kolor = "zolty"
+    skad = "od cioci"
+    do = "kawy"
+    def jaki(self):
+        jaki_kubek = "Ten %s %s kubek jest %s i uzywam go do %s" % (self.rozmiar, self.kolor, self.skad, self.do)
+        return jaki_kubek
+Kubek1 = Kubek()
+Kubek1.rozmiar = "sredni"
+Kubek1.kolor = "niebieski"
+Kubek1.skad = "od taty"
+Kubek1.do = "herbaty"
+
+Kubek2 = Kubek()
+Kubek2.rozmiar = "maly"
+Kubek2.kolor = "zielony"
+Kubek2.skad = "znad morza"
+Kubek2.do = "espresso"
+
+print(Kubek1.jaki())
+print(Kubek2.jaki())
